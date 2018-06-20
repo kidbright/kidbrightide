@@ -1,0 +1,88 @@
+{
+	"board": {
+		"name": "kidbright32",
+		"processor": "esp32",
+		"arch": "xtensa lx6"
+	},
+	"packages": [
+		{
+			"name": "toolchain",
+			"platform": "linux",
+			"items": [
+				{
+					"name": "xtensa",
+					"download_url": "https://dl.espressif.com/dl/xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+					"md5": "3e00f8faa7360ebfc39971d2d2f3522d",
+					"directories": [
+						"xtensa-esp32-elf"
+					]
+				},
+				{
+					"name": "esptool",
+					"download_url": "https://raw.githubusercontent.com/espressif/esptool/master/esptool.py",
+					"md5": "b45989c0bf69db728ac023badd3c60fb"
+				}
+			]
+		},
+		{
+			"name": "toolchain",
+			"platform": "win32",
+			"items": [
+				{
+					"name": "xtensa",
+					"download_url": "https://dl.espressif.com/dl/xtensa-esp32-elf-win32-1.22.0-80-g6c4433a-5.2.0.zip",
+					"md5": "4f7e9c892500aceea6ab08880be36217",
+					"directories": [
+						"xtensa-esp32-elf"
+					]
+				},
+				{
+					"name": "esptool",
+					"download_url": "https://dl.espressif.com/dl/esptool-da31d9d-windows.zip",
+					"md5": "eb97bc9caa4fe6123f4718ff0f8bd65f"
+				}
+			]
+		},
+		{
+			"name": "toolchain",
+			"platform": "darwin",
+			"items": [
+				{
+					"name": "xtensa",
+					"download_url": "https://dl.espressif.com/dl/xtensa-esp32-elf-osx-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+					"md5": "b35a459ba7689691f2703e2005754eb7",
+					"directories": [
+						"xtensa-esp32-elf"
+					]
+				},
+				{
+					"name": "esptool",
+					"download_url": "https://dl.espressif.com/dl/esptool-da31d9d-macos.tar.gz",
+					"md5": "a36ea6fea74d09f686c18b9fa6838c62"
+				}
+			]
+		},
+		{
+			"name": "express",
+			"platform": "all",
+			"items": [
+				{
+					"name": "app",
+					"download_url": "https://raw.githubusercontent.com/kidbright/kidbrightide/master/app.zip",
+					"md5": "0f10c34a6192d38bdcdeaff5ec1cb97c"
+				}
+			]
+		},
+		{
+			"name": "sdk",
+			"platform": "all",
+			"items": [
+				{
+					"name": "esp32",
+					"download_url": "https://raw.githubusercontent.com/kidbright/kidbrightide/master/esp32.zip",
+					"md5": "b3324b0318bd9336efe5af95054fcde9"
+				}
+			]
+		}
+	]
+}
