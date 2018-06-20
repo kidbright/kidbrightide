@@ -3,6 +3,7 @@
 Integrated Development Environment for KidBright
 
 # Installation
+**After finished installation, open web browser and browse to localhost:8000**
 
 ### linux 64-bit
 ```
